@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF20484420": {
+    "contest_id": 675,
+    "language": "GNU C",
+    "path": "codeforces\\675\\A.c",
+    "problem_index": "A",
+    "problem_name": "Infinite Sequence",
+    "problem_url": "https://codeforces.com/contest/675/problem/A",
+    "submission_id": "CF20484420",
+    "submission_url": "https://codeforces.com/contest/675/submission/20484420",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/10/2016 00:22"
+  },
   "CF20484879": {
     "contest_id": 4,
     "language": "GNU C",
