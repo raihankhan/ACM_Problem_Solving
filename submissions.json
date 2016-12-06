@@ -712,6 +712,22 @@
     ],
     "timestamp": "Nov/20/2016 16:58"
   },
+  "CF22769127": {
+    "contest_id": 96,
+    "language": "GNU C",
+    "path": "codeforces\\96\\A.c",
+    "problem_index": "A",
+    "problem_name": "Football",
+    "problem_url": "https://codeforces.com/contest/96/problem/A",
+    "submission_id": "CF22769127",
+    "submission_url": "https://codeforces.com/contest/96/submission/22769127",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Dec/07/2016 01:58"
+  },
   "CF22790441": {
     "contest_id": 742,
     "language": "GNU C",
