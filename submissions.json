@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF28325004": {
+    "contest_id": 334,
+    "language": "GNU C++14",
+    "path": "codeforces\\334\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Candy Bags",
+    "problem_url": "https://codeforces.com/contest/334/problem/A",
+    "submission_id": "CF28325004",
+    "submission_url": "https://codeforces.com/contest/334/submission/28325004",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jul/06/2017 17:20"
+  },
   "CF28667562": {
     "contest_id": 831,
     "language": "GNU C++14",
