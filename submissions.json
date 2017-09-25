@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF30697092": {
+    "contest_id": 233,
+    "language": "GNU C++14",
+    "path": "codeforces\\233\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Perfect Permutation",
+    "problem_url": "https://codeforces.com/contest/233/problem/A",
+    "submission_id": "CF30697092",
+    "submission_url": "https://codeforces.com/contest/233/submission/30697092",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/25/2017 12:56"
+  },
   "CF30697624": {
     "contest_id": 798,
     "language": "GNU C++14",
