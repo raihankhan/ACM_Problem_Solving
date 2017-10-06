@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF31062560": {
+    "contest_id": 680,
+    "language": "GNU C++14",
+    "path": "codeforces\\680\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bear and Five Cards",
+    "problem_url": "https://codeforces.com/contest/680/problem/A",
+    "submission_id": "CF31062560",
+    "submission_url": "https://codeforces.com/contest/680/submission/31062560",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2017 16:32"
+  },
   "CF31089350": {
     "contest_id": 20,
     "language": "GNU C++14",
