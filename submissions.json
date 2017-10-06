@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF31089350": {
+    "contest_id": 20,
+    "language": "GNU C++14",
+    "path": "codeforces\\20\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Equation",
+    "problem_url": "https://codeforces.com/contest/20/problem/B",
+    "submission_id": "CF31089350",
+    "submission_url": "https://codeforces.com/contest/20/submission/31089350",
+    "tags": [
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Oct/06/2017 23:54"
+  },
   "CF31110570": {
     "contest_id": 682,
     "language": "GNU C++14",
