@@ -587,6 +587,23 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF33588645": {
+    "contest_id": 899,
+    "language": "GNU C++14",
+    "path": "codeforces\\899\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Splitting in Teams",
+    "problem_url": "https://codeforces.com/contest/899/problem/A",
+    "submission_id": "CF33588645",
+    "submission_url": "https://codeforces.com/contest/899/submission/33588645",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/24/2017 15:02"
+  },
   "CF33589591": {
     "contest_id": 899,
     "language": "GNU C++14",
