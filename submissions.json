@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF34613765": {
+    "contest_id": 707,
+    "language": "GNU C++14",
+    "path": "codeforces\\707\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Brain's Photos",
+    "problem_url": "https://codeforces.com/contest/707/problem/A",
+    "submission_id": "CF34613765",
+    "submission_url": "https://codeforces.com/contest/707/submission/34613765",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/27/2018 23:54"
+  },
   "CF34721324": {
     "contest_id": 918,
     "language": "GNU C++14",
