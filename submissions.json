@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF34603978": {
+    "contest_id": 72,
+    "language": "Io",
+    "path": "codeforces\\72\\G.io",
+    "problem_index": "G",
+    "problem_name": "Fibonacci army",
+    "problem_url": "https://codeforces.com/contest/72/problem/G",
+    "submission_id": "CF34603978",
+    "submission_url": "https://codeforces.com/contest/72/submission/34603978",
+    "tags": [
+      "*special problem",
+      "dp",
+      "*1000"
+    ],
+    "timestamp": "Jan/27/2018 17:37"
+  },
   "CF34612826": {
     "contest_id": 507,
     "language": "GNU C++14",
