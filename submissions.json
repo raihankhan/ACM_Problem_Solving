@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF35116801": {
+    "contest_id": 676,
+    "language": "GNU C++14",
+    "path": "codeforces\\676\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Nicholas and Permutation",
+    "problem_url": "https://codeforces.com/contest/676/problem/A",
+    "submission_id": "CF35116801",
+    "submission_url": "https://codeforces.com/contest/676/submission/35116801",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/10/2018 14:27"
+  },
   "CF35392667": {
     "contest_id": 939,
     "language": "GNU C++14",
