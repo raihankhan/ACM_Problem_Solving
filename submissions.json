@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF36860446": {
+    "contest_id": 952,
+    "language": "GNU C++14",
+    "path": "codeforces\\952\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "A Map of the Cat",
+    "problem_url": "https://codeforces.com/contest/952/problem/B",
+    "submission_id": "CF36860446",
+    "submission_url": "https://codeforces.com/contest/952/submission/36860446",
+    "tags": [
+      "brute force",
+      "interactive",
+      "*1900"
+    ],
+    "timestamp": "Apr/02/2018 00:27"
+  },
   "CF36930294": {
     "contest_id": 959,
     "language": "GNU C++14",
