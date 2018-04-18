@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF37433768": {
+    "contest_id": 964,
+    "language": "GNU C++14",
+    "path": "codeforces\\964\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Splits",
+    "problem_url": "https://codeforces.com/contest/964/problem/A",
+    "submission_id": "CF37433768",
+    "submission_url": "https://codeforces.com/contest/964/submission/37433768",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/18/2018 17:28"
+  },
   "CF37513873": {
     "contest_id": 520,
     "language": "GNU C++14",
