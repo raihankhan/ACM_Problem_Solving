@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF37604293": {
+    "contest_id": 893,
+    "language": "GNU C++14",
+    "path": "codeforces\\893\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chess For Three",
+    "problem_url": "https://codeforces.com/contest/893/problem/A",
+    "submission_id": "CF37604293",
+    "submission_url": "https://codeforces.com/contest/893/submission/37604293",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/25/2018 23:31"
+  },
   "CF37608058": {
     "contest_id": 965,
     "language": "GNU C++14",
