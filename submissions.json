@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF38863540": {
+    "contest_id": 988,
+    "language": "GNU C++14",
+    "path": "codeforces\\988\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Diverse Team",
+    "problem_url": "https://codeforces.com/contest/988/problem/A",
+    "submission_id": "CF38863540",
+    "submission_url": "https://codeforces.com/contest/988/submission/38863540",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/02/2018 00:04"
+  },
   "CF38864481": {
     "contest_id": 988,
     "language": "GNU C++14",
