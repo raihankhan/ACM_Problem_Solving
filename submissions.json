@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF38877072": {
+    "contest_id": 979,
+    "language": "GNU C++14",
+    "path": "codeforces\\979\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Pizza, Pizza, Pizza!!!",
+    "problem_url": "https://codeforces.com/contest/979/problem/A",
+    "submission_id": "CF38877072",
+    "submission_url": "https://codeforces.com/contest/979/submission/38877072",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/02/2018 13:11"
+  },
   "CF38945698": {
     "contest_id": 34,
     "language": "GNU C++14",
