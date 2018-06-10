@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF39092023": {
+    "contest_id": 990,
+    "language": "GNU C++14",
+    "path": "codeforces\\990\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Commentary Boxes",
+    "problem_url": "https://codeforces.com/contest/990/problem/A",
+    "submission_id": "CF39092023",
+    "submission_url": "https://codeforces.com/contest/990/submission/39092023",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/10/2018 16:15"
+  },
   "CF39125336": {
     "contest_id": 990,
     "language": "GNU C++14",
