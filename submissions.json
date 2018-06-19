@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF39416747": {
+    "contest_id": 90,
+    "language": "GNU C++14",
+    "path": "codeforces\\90\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "African Crossword",
+    "problem_url": "https://codeforces.com/contest/90/problem/B",
+    "submission_id": "CF39416747",
+    "submission_url": "https://codeforces.com/contest/90/submission/39416747",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jun/19/2018 22:30"
+  },
   "CF39467884": {
     "contest_id": 999,
     "language": "GNU C++14",
