@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF41591796": {
+    "contest_id": 922,
+    "language": "GNU C++14",
+    "path": "codeforces\\922\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Magic Forest",
+    "problem_url": "https://codeforces.com/contest/922/problem/B",
+    "submission_id": "CF41591796",
+    "submission_url": "https://codeforces.com/contest/922/submission/41591796",
+    "tags": [
+      "brute force",
+      "*1300"
+    ],
+    "timestamp": "Aug/14/2018 20:27"
+  },
   "CF41755071": {
     "contest_id": 948,
     "language": "GNU C++14",
