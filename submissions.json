@@ -587,6 +587,24 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF41755071": {
+    "contest_id": 948,
+    "language": "GNU C++14",
+    "path": "codeforces\\948\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Protect Sheep",
+    "problem_url": "https://codeforces.com/contest/948/problem/A",
+    "submission_id": "CF41755071",
+    "submission_url": "https://codeforces.com/contest/948/submission/41755071",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Aug/18/2018 17:36"
+  },
   "CF41826863": {
     "contest_id": 1027,
     "language": "GNU C++14",
