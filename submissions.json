@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF41873036": {
+    "contest_id": 632,
+    "language": "GNU C++14",
+    "path": "codeforces\\632\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Smallest String Concatenation",
+    "problem_url": "https://codeforces.com/contest/632/problem/C",
+    "submission_id": "CF41873036",
+    "submission_url": "https://codeforces.com/contest/632/submission/41873036",
+    "tags": [
+      "sortings",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Aug/20/2018 01:15"
+  },
   "CF41970389": {
     "contest_id": 1025,
     "language": "GNU C++14",
