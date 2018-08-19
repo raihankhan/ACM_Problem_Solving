@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF41872109": {
+    "contest_id": 451,
+    "language": "GNU C++14",
+    "path": "codeforces\\451\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sort the Array",
+    "problem_url": "https://codeforces.com/contest/451/problem/B",
+    "submission_id": "CF41872109",
+    "submission_url": "https://codeforces.com/contest/451/submission/41872109",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Aug/20/2018 00:49"
+  },
   "CF41873036": {
     "contest_id": 632,
     "language": "GNU C++14",
