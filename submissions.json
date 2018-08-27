@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF42141284": {
+    "contest_id": 746,
+    "language": "GNU C++14",
+    "path": "codeforces\\746\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Compote",
+    "problem_url": "https://codeforces.com/contest/746/problem/A",
+    "submission_id": "CF42141284",
+    "submission_url": "https://codeforces.com/contest/746/submission/42141284",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/27/2018 11:41"
+  },
   "CF42233164": {
     "contest_id": 1028,
     "language": "GNU C++14",
