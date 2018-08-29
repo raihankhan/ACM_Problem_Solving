@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF42233164": {
+    "contest_id": 1028,
+    "language": "GNU C++14",
+    "path": "codeforces\\1028\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Find Square",
+    "problem_url": "https://codeforces.com/contest/1028/problem/A",
+    "submission_id": "CF42233164",
+    "submission_url": "https://codeforces.com/contest/1028/submission/42233164",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/29/2018 13:56"
+  },
   "CF42233488": {
     "contest_id": 1028,
     "language": "GNU C++14",
