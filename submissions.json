@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF42562924": {
+    "contest_id": 1038,
+    "language": "GNU C++14",
+    "path": "codeforces\\1038\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Equality",
+    "problem_url": "https://codeforces.com/contest/1038/problem/A",
+    "submission_id": "CF42562924",
+    "submission_url": "https://codeforces.com/contest/1038/submission/42562924",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/06/2018 21:46"
+  },
   "CF42571576": {
     "contest_id": 1038,
     "language": "GNU C++14",
