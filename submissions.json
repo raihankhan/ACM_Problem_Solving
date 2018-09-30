@@ -587,6 +587,23 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF43596138": {
+    "contest_id": 554,
+    "language": "GNU C++14",
+    "path": "codeforces\\554\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Ohana Cleans Up",
+    "problem_url": "https://codeforces.com/contest/554/problem/B",
+    "submission_id": "CF43596138",
+    "submission_url": "https://codeforces.com/contest/554/submission/43596138",
+    "tags": [
+      "brute force",
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Sep/30/2018 13:13"
+  },
   "CF43790993": {
     "contest_id": 1060,
     "language": "GNU C++14",
