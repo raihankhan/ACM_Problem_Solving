@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF43790993": {
+    "contest_id": 1060,
+    "language": "GNU C++14",
+    "path": "codeforces\\1060\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Maximum Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/1060/problem/B",
+    "submission_id": "CF43790993",
+    "submission_url": "https://codeforces.com/contest/1060/submission/43790993",
+    "tags": [
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Oct/04/2018 19:50"
+  },
   "CF43955594": {
     "contest_id": 1033,
     "language": "GNU C++14",
