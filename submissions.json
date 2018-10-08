@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF44016001": {
+    "contest_id": 876,
+    "language": "GNU C++14",
+    "path": "codeforces\\876\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Trip For Meal",
+    "problem_url": "https://codeforces.com/contest/876/problem/A",
+    "submission_id": "CF44016001",
+    "submission_url": "https://codeforces.com/contest/876/submission/44016001",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Oct/09/2018 03:08"
+  },
   "CF44016455": {
     "contest_id": 876,
     "language": "GNU C++14",
