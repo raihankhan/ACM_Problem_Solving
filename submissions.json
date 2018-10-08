@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF44015600": {
+    "contest_id": 144,
+    "language": "GNU C++14",
+    "path": "codeforces\\144\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Meeting",
+    "problem_url": "https://codeforces.com/contest/144/problem/B",
+    "submission_id": "CF44015600",
+    "submission_url": "https://codeforces.com/contest/144/submission/44015600",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/09/2018 02:49"
+  },
   "CF44016001": {
     "contest_id": 876,
     "language": "GNU C++14",
