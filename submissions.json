@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF44016455": {
+    "contest_id": 876,
+    "language": "GNU C++14",
+    "path": "codeforces\\876\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Classroom Watch",
+    "problem_url": "https://codeforces.com/contest/876/problem/C",
+    "submission_id": "CF44016455",
+    "submission_url": "https://codeforces.com/contest/876/submission/44016455",
+    "tags": [
+      "brute force",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Oct/09/2018 03:35"
+  },
   "CF44016956": {
     "contest_id": 876,
     "language": "GNU C++14",
