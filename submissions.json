@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF44708144": {
+    "contest_id": 1072,
+    "language": "GNU C++14",
+    "path": "codeforces\\1072\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Golden Plate",
+    "problem_url": "https://codeforces.com/contest/1072/problem/A",
+    "submission_id": "CF44708144",
+    "submission_url": "https://codeforces.com/contest/1072/submission/44708144",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/22/2018 23:40"
+  },
   "CF44776685": {
     "contest_id": 682,
     "language": "GNU C++14",
