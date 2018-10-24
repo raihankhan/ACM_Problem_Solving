@@ -587,6 +587,23 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF44778917": {
+    "contest_id": 855,
+    "language": "GNU C++14",
+    "path": "codeforces\\855\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tom Riddle's Diary",
+    "problem_url": "https://codeforces.com/contest/855/problem/A",
+    "submission_id": "CF44778917",
+    "submission_url": "https://codeforces.com/contest/855/submission/44778917",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/24/2018 21:35"
+  },
   "CF44779289": {
     "contest_id": 1072,
     "language": "GNU C++14",
