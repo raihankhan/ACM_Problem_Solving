@@ -587,6 +587,20 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF45907377": {
+    "contest_id": 1077,
+    "language": "GNU C++14",
+    "path": "codeforces\\1077\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Good Array",
+    "problem_url": "https://codeforces.com/contest/1077/problem/C",
+    "submission_id": "CF45907377",
+    "submission_url": "https://codeforces.com/contest/1077/submission/45907377",
+    "tags": [
+      "*1300"
+    ],
+    "timestamp": "Nov/18/2018 15:10"
+  },
   "CF46167508": {
     "contest_id": 1061,
     "language": "GNU C++14",
