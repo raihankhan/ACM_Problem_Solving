@@ -79,18 +79,20 @@ int main()
 
     rep(i, 0, n) scin(arr[i]);
 
-    rep(i, 0, n)
+    rep(i, 0, 200)
     {
-        arr[i]=ceil(arr[i]/(1.0*m));
-        k=max(k,arr[i]);
-    }
-
-    rev(i, n-1, 0)
-    {
-        if(k==arr[i])
+        rep(j, 0, n)
         {
-            cout << i+1 << endl;
-            return 0;
+            if(arr[j]>0)
+            {
+                arr[j]-=m;
+                if(arr[j]<=0) k++;
+                if(k==n)
+                {
+                    cout << j+1 << endl;
+                    return 0;
+                }
+            }
         }
     }
 
@@ -99,5 +101,4 @@ int main()
 #endif
     return 0;
 }
-
 
