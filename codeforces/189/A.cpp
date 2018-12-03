@@ -69,24 +69,31 @@ int dy[5] = {0, 0, 1, -1};
 */
 
 using namespace std;
-int dp[4007];
+
 int main()
 {
-    int n,i,j,k,a,b,c;
+    int n, arr[3],pc=0 , a , b , c ,mx=0,i ,j, k;
 
-    cin >> n >> a >> b >> c ;
+    cin >> n >> a >> b >> c;
 
-    dp[0]=0;
-    rep(i , 1 , n+1)
+    rep(i , 0 , n+1)
     {
-        dp[i]=-inf;
-        if(i>=a) dp[i]=max(dp[i] , 1+dp[i-a]);
-        if(i>=b) dp[i]=max(dp[i] , 1+dp[i-b]);
-        if(i>=c) dp[i]=max(dp[i] , 1+dp[i-c]);
-        //cout << i << "--" << dp[i] << endl;
+        rep(j , 0 , n+1)
+        {
+            pc=n-(a*i)-(b*j);
+            if(pc==0 or (pc>0 and pc%c==0))
+            {
+                k=pc/c;
+                mx=max(mx , i+j+k );
+            }
+        }
     }
 
-   cout << dp[n] << endl;
+    cout << mx << endl;
+
+
+
+
 
 #ifdef HOME
     cerr << "Time elapsed: " << clock() / 1000 << " ms" << endl;
