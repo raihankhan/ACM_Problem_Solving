@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF46713132": {
+    "contest_id": 1088,
+    "language": "GNU C++14",
+    "path": "codeforces\\1088\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Ehab and subtraction",
+    "problem_url": "https://codeforces.com/contest/1088/problem/B",
+    "submission_id": "CF46713132",
+    "submission_url": "https://codeforces.com/contest/1088/submission/46713132",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Dec/07/2018 15:24"
+  },
   "CF46862680": {
     "contest_id": 1084,
     "language": "GNU C++14",
