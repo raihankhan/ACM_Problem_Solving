@@ -78,29 +78,23 @@ int main()
 
     lli len=s.length();
     lli conta=0,i,contb=0,sum=0;
-    rep(i, 0, len)
+    rep(i , 0 , len)
     {
         if(s[i]=='a')
+        {
             conta++;
+            sum+=contb;
+            sum%=M;
+        }
         else if(s[i]=='b')
         {
-            if(sum==0) sum=(conta+1);
-            else sum*=(conta+1);
-
-            sum%=M;
+            sum+=conta;
             conta=0;
+            contb=sum;
         }
     }
 
-    if(conta>0)
-    {
-        if(sum==0) sum=(conta+1);
-        else sum*=(conta+1);
-        sum%=M;
-    }
-
-    if(sum)
-    sum--;
+    if(conta>0) sum=(sum+conta)%M;
 
     cout << sum << endl;
 
