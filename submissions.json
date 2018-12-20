@@ -587,6 +587,24 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF47307891": {
+    "contest_id": 1093,
+    "language": "GNU C++17",
+    "path": "codeforces\\1093\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Letters Rearranging",
+    "problem_url": "https://codeforces.com/contest/1093/problem/B",
+    "submission_id": "CF47307891",
+    "submission_url": "https://codeforces.com/contest/1093/submission/47307891",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Dec/20/2018 23:52"
+  },
   "CF47323393": {
     "contest_id": 893,
     "language": "GNU C++17",
