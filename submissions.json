@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF47287065": {
+    "contest_id": 1092,
+    "language": "GNU C++17",
+    "path": "codeforces\\1092\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Prefixes and Suffixes",
+    "problem_url": "https://codeforces.com/contest/1092/problem/C",
+    "submission_id": "CF47287065",
+    "submission_url": "https://codeforces.com/contest/1092/submission/47287065",
+    "tags": [
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Dec/20/2018 12:52"
+  },
   "CF47307280": {
     "contest_id": 1093,
     "language": "GNU C++17",
