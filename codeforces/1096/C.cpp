@@ -81,7 +81,7 @@ int main()
         scln(x);
 
         okk=true;
-        rep(k , 1 , 361 )
+        rep(k , 1 , 5545802 )
         {
             if((k*180)%x==0)
             {
