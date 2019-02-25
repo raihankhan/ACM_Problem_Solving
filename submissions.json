@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF50483477": {
+    "contest_id": 14,
+    "language": "GNU C++14",
+    "path": "codeforces\\14\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Letter",
+    "problem_url": "https://codeforces.com/contest/14/problem/A",
+    "submission_id": "CF50483477",
+    "submission_url": "https://codeforces.com/contest/14/submission/50483477",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/25/2019 16:21"
+  },
   "CF50765206": {
     "contest_id": 1102,
     "language": "GNU C++14",
