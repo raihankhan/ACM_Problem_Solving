@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF51442869": {
+    "contest_id": 801,
+    "language": "GNU C++14",
+    "path": "codeforces\\801\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Vicious Keyboard",
+    "problem_url": "https://codeforces.com/contest/801/problem/A",
+    "submission_id": "CF51442869",
+    "submission_url": "https://codeforces.com/contest/801/submission/51442869",
+    "tags": [
+      "brute force",
+      "*1100"
+    ],
+    "timestamp": "Mar/18/2019 17:03"
+  },
   "CF51443327": {
     "contest_id": 807,
     "language": "GNU C++14",
