@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF51613011": {
+    "contest_id": 747,
+    "language": "GNU C++14",
+    "path": "codeforces\\747\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Display Size",
+    "problem_url": "https://codeforces.com/contest/747/problem/A",
+    "submission_id": "CF51613011",
+    "submission_url": "https://codeforces.com/contest/747/submission/51613011",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/21/2019 17:19"
+  },
   "CF51629623": {
     "contest_id": 1139,
     "language": "GNU C++14",
