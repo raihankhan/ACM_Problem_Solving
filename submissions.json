@@ -6779,6 +6779,21 @@
     ],
     "timestamp": "Mar/24/2019 03:22"
   },
+  "CF51970357": {
+    "contest_id": 510,
+    "language": "GNU C++14",
+    "path": "codeforces\\510\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Fox And Two Dots",
+    "problem_url": "https://codeforces.com/contest/510/problem/B",
+    "submission_id": "CF51970357",
+    "submission_url": "https://codeforces.com/contest/510/submission/51970357",
+    "tags": [
+      "dfs and similar",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2019 18:07"
+  },
   "CF51981544": {
     "contest_id": 445,
     "language": "GNU C++14",
