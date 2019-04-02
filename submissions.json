@@ -6779,6 +6779,21 @@
     ],
     "timestamp": "Mar/24/2019 03:22"
   },
+  "CF52238386": {
+    "contest_id": 1085,
+    "language": "GNU C++14",
+    "path": "codeforces\\1085\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Div Times Mod",
+    "problem_url": "https://codeforces.com/contest/1085/problem/B",
+    "submission_id": "CF52238386",
+    "submission_url": "https://codeforces.com/contest/1085/submission/52238386",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Apr/02/2019 20:43"
+  },
   "CF52286926": {
     "contest_id": 515,
     "language": "GNU C++14",
