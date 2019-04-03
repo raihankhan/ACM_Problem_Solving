@@ -93,7 +93,6 @@ using namespace std;
 
 int main()
 {
-    IOS
     lli a,b,n;
     cin >> a >>b >> n ;
     lli mini = abs(a)+abs(b);
