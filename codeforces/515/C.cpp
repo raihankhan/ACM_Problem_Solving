@@ -97,7 +97,7 @@ void precal()
     rep(i, 2, 10)
     {
         l=i;
-        while(!(l&1)) vk[i].pb(2),l>>=1;
+        while(l%2==0) vk[i].pb(2),l>>=1;
         for(j=3; j*j<=l ; j+=2)
             while(l%j==0)
                 vk[i].pb(j),l/=j;
@@ -118,7 +118,7 @@ int main()
         rep(i, 2, k+1)
         {
             l=i;
-            while(!(l&1)) v.pb(2),l>>=1;
+            while(l%2==0) v.pb(2),l>>=1;
             for(j=3; j*j<=l ; j+=2)
                 while(l%j==0)
                     v.pb(j),l/=j;
