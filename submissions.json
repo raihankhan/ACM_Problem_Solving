@@ -6779,6 +6779,22 @@
     ],
     "timestamp": "Mar/24/2019 03:22"
   },
+  "CF52614770": {
+    "contest_id": 659,
+    "language": "GNU C++14",
+    "path": "codeforces\\659\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Round House",
+    "problem_url": "https://codeforces.com/contest/659/problem/A",
+    "submission_id": "CF52614770",
+    "submission_url": "https://codeforces.com/contest/659/submission/52614770",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Apr/11/2019 23:48"
+  },
   "CF52742318": {
     "contest_id": 1153,
     "language": "GNU C++14",
