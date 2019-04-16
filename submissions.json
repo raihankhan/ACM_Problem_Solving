@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF52827652": {
+    "contest_id": 680,
+    "language": "GNU C++14",
+    "path": "codeforces\\680\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bear and Finding Criminals",
+    "problem_url": "https://codeforces.com/contest/680/problem/B",
+    "submission_id": "CF52827652",
+    "submission_url": "https://codeforces.com/contest/680/submission/52827652",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Apr/16/2019 20:26"
+  },
   "CF52832325": {
     "contest_id": 1154,
     "language": "GNU C++14",
