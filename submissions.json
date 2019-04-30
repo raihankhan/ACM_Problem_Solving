@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF53584836": {
+    "contest_id": 854,
+    "language": "GNU C++14",
+    "path": "codeforces\\854\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Maxim Buys an Apartment",
+    "problem_url": "https://codeforces.com/contest/854/problem/B",
+    "submission_id": "CF53584836",
+    "submission_url": "https://codeforces.com/contest/854/submission/53584836",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Apr/30/2019 23:49"
+  },
   "CF53584845": {
     "contest_id": 842,
     "language": "GNU C++14",
