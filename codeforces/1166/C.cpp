@@ -138,7 +138,6 @@ int main()
     rep(i, 0, n)
     {
         scln(k);
-        if(k)
         v.pb(abs(k));
     }
 
