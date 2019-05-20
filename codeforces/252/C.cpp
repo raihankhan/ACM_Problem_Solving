@@ -7,11 +7,11 @@
 ///...................................*****.................................................///
 
 /*....................................Values................................................*/
+#define       inf                  1<<30
 #define       p5                   100007
 #define       p6                   1000007
 #define       PI                   acos(-1)
 #define       M                    1000000007
-#define       inf                  1LL << 62
 #define       white                0
 #define       gray                 1
 #define       black                2
@@ -19,17 +19,15 @@
 #define       sqr(x)               x*x
 #define       sc                   scanf
 #define       pf                   printf
-#define       pfn                  printf("\n")
 #define       scin(x)              sc("%d",&(x))
-#define       scin2(xx,zz)         scanf("%d %d",&xx,&zz)
+#define       scin2(x,y)           sc("d",&(x),&(y))
+#define       scin3(x,y,z)         sc("d%d",&(x),&(y),&(z))
 #define       scln(x)              sc("%lld",&(x))
-#define       scln2(xx,zz)         scanf("%lld %lld",&xx,&zz)
-#define       min3(a,b,c)          min(a,b<c?b:c)
-#define       max3(a,b,c)          max(a,b>c?b:c)
+#define       min3(a,b,c)          min(a,min(b,c))
+#define       max3(a,b,c)          max(a,max(b,c))
 #define       all(v)               v.begin(), v.end()
 #define       ok                   cout << "ok" << endl
 #define       mem(x,y)             memset(x,y,sizeof(x))
-#define       clr(a)               a.clear()
 #define       READ(f)              freopen(f, "r", stdin)
 #define       WRITE(f)             freopen(f, "w", stdout)
 
@@ -50,31 +48,24 @@
 
 #define       pb                   push_back
 #define       mp                   make_pair
-#define       ff                   first
-#define       ss                   second
+#define       ss                   stringstream
 
 /*.....................................Loops...............................................*/
 #define       rep( i , a , b )     for( i=a ; i<b ; i++)
 #define       rev( i , a , b )     for( i=a ; i>=b ; i--)
 #define       repx( i ,a,b, x)     for( i=a ; i<b ; i+=x)
-#define       test(t)              int t; scin(t); while(t--)
-#define       doshomik(x)          fixed << setprecision(x)
-#define       IOS                  ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
-//int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
 
-///------------------------------- Mudular functions----------------------------------------
-/*
-inline lli power(lli x, lli y){ lli temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
-inline lli add(lli a, lli b) {a += b; return a >= M ? a - M : a;}
-inline lli sub(lli a, lli b) {a -= b; return a < 0 ? a + M : a;}
-inline lli mul(lli a, lli b) {return  (a * b) % M;}
-lli gcd(lli x,lli y)
+#define       IOS             ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+
+//int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
+//long power(long int x, long int y){ int temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
+/*lli gcd(lli x,lli y)
 {
     if(x==0) return y;
     return gcd(y%x,x);
 }
-lli bigmod(lli n, lli k )
+lli bigmod(lli n, lli k)
 {
     lli ans=1;
     while(k)
@@ -88,56 +79,80 @@ lli bigmod(lli n, lli k )
     return ans;
 }
 */
-///----------------------------------Graph moves----------------------------------------
 /*
-int dx4[5] = {1, -1, 0,  0};
-int dy4[5] = {0,  0, 1, -1};
-int dx8[9] = {0,  0, 1, -1, -1, 1, -1,  1};
-int dy8[9] = {-1, 1, 0,  0,  1, 1, -1, -1};
-int knightx[9] = {-2, -2, -1, -1,  1, 1, 2,  2};
-int knighty[9] = {-1,  1, -2,  2, -2, 2, -1, 1};
+int dx4[5] = {1, -1, 0, 0 };
+int dy4[5] = {0, 0, 1, -1};
+int dx8[9] = { 0 , 0 , -1 , 1 , -1 , -1 , 1 , 1 } ;
+int dy8[9] = { -1 , 1 , 0 , 0 , -1 , 1 , -1 , 1 } ;
+
+int knightx[9] = { -1 , 1 , -2 , 2 , -2 , 2 , -1 , 1 } ;
+int knighty[9] = { -2 , -2 , -1 , -1 , 1 , 1 , 2 , 2 } ;
+
 bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y <= c ) return 1 ; return 0 ; }
 */
 
 using namespace std;
+lli arr[p5];
 
-void err(istream_iterator<string> it) { cerr << endl; }
-template<typename T, typename... Args>
-void err(istream_iterator<string> it, T a, Args... args) { cerr  << "[ " << *it << " = " << a << " ] " ; err(++it, args...);  }
-///...............................Code Starts Here........................................
-
-int main()
+lli bns(lli d, lli s , lli l , lli h)
 {
-    lli n,d,i,j,k,l,r,a,b;
+    lli i,mid;
 
-    scln2(n,d);vecl v(n);
-    rep(i , 0 , n) scln(v[i]);
-    lli ans=0;
-    auto it=v.begin();
-    rep(i , 0 , n)
+    while(l<h)
     {
-        auto l=it;
-        advance(it,1);
-        auto r=lower_bound(it,v.end(),v[i]+d);
-
-        a=l-v.begin();
-        b=r-v.begin();
-        if(r==v.end()) b--;
-        if(abs(v[b]-v[a])>d) b--;
-        //error(a,b);
-        if(b-a>=2)
+        mid=l+(h-l)/2;
+        if(arr[mid]==arr[s]+d) return mid;
+        if(arr[mid]<arr[s]+d)
         {
-            k = b-a-1;
-            ans+=((k*(k+1LL))>>1);
-           // error(ans);
+            l=mid+1;
+        }
+        else
+        {
+            h=mid;
         }
     }
 
-    cout << ans << endl;
+    return mid;
+}
+int main()
+{
+   lli n,i,j,p,d,k;
+   scln(n);
+   scln(d);
 
+   rep(i , 0 , n)
+   {
+       scln(arr[i]);
+   }
 
+   lli tot=0;
+
+   rep(i , 0 , n-2)
+   {
+       k=bns(d,i,i+2,n);
+       p=k-i;
+       //cout << p << " " << arr[i] << " " <<  arr[k] << endl;
+       if(arr[k]<=arr[i]+d)
+       {
+       p=(p*(p-1))/2;
+       tot+=p;
+       }
+       else
+       {
+           if(k!=i+2)
+           {
+               p--;
+               p=(p*(p-1))/2;
+               tot+=p;
+           }
+       }
+   }
+
+   cout << tot << endl;
+
+#ifdef HOME
+    cerr << "Time elapsed: " << clock() / 1000 << " ms" << endl;
+#endif
     return 0;
 }
-
-
 
