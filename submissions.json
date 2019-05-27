@@ -7466,6 +7466,22 @@
     ],
     "timestamp": "May/27/2019 15:50"
   },
+  "CF54713571": {
+    "contest_id": 1169,
+    "language": "GNU C++14",
+    "path": "codeforces\\1169\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Pairs",
+    "problem_url": "https://codeforces.com/contest/1169/problem/B",
+    "submission_id": "CF54713571",
+    "submission_url": "https://codeforces.com/contest/1169/submission/54713571",
+    "tags": [
+      "graphs",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/27/2019 17:54"
+  },
   "CF54837693": {
     "contest_id": 558,
     "language": "GNU C++14",
