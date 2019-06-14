@@ -94,7 +94,7 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 using namespace std;
 int arr[p5];
 
-/*int bnsearch(int val , int l , int r)
+int bnsearch(int val , int l , int r)
 {
     int mid;
     while(l<r)
@@ -106,7 +106,7 @@ int arr[p5];
     }
 
     return l-1;
-}*/
+}
 int main()
 {
    int n,i,j,len,maxi=0;
@@ -121,7 +121,7 @@ int main()
 
    rep(i , 0 , n-1)
    {
-       maxi=max(maxi , int(upper_bound(arr+i+1 , arr+n , 2*arr[i])-arr)-i);
+       maxi=max(maxi , bnsearch(2*arr[i] , i+1 , n )-i+1);
    }
 
    cout << n-maxi << endl;
@@ -131,5 +131,4 @@ int main()
 #endif
     return 0;
 }
-
 
