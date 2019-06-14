@@ -7512,6 +7512,24 @@
     ],
     "timestamp": "Jun/13/2019 06:04"
   },
+  "CF55555934": {
+    "contest_id": 697,
+    "language": "GNU C++14",
+    "path": "codeforces\\697\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Barnicle",
+    "problem_url": "https://codeforces.com/contest/697/problem/B",
+    "submission_id": "CF55555934",
+    "submission_url": "https://codeforces.com/contest/697/submission/55555934",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jun/14/2019 15:53"
+  },
   "CF55556808": {
     "contest_id": 253,
     "language": "GNU C++14",
