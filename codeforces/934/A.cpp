@@ -7,12 +7,11 @@
 ///...................................*****.................................................///
 
 /*....................................Values................................................*/
-
+#define       inf                  1<<30
 #define       p5                   100007
 #define       p6                   1000007
 #define       PI                   acos(-1)
 #define       M                    1000000007
-#define       inf                  1LL << 62
 #define       white                0
 #define       gray                 1
 #define       black                2
@@ -96,7 +95,7 @@ using namespace std;
 
 int main()
 {
-    lli n,m,i,j,arr[p5],brr[p5],p,maxi=1;
+    lli n,m,i,j,arr[p5],brr[p5],p,maxi;
 
     cin >> n >> m ;
 
@@ -106,7 +105,7 @@ int main()
     vecl v;
     rep(i, 0, n)
     {
-        maxi=(-1)*inf;
+        maxi=-2000000000000000000;
         rep(j, 0, m)
         {
             p=arr[i]*brr[j];
