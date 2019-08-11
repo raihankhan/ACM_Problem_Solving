@@ -383,6 +383,22 @@
     ],
     "timestamp": "Aug/05/2020 01:31"
   },
+  "AC6857122": {
+    "contest_id": "dp",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\dp\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Frog 1",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_a",
+    "submission_id": "AC6857122",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/6857122",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/11/2019 23:41"
+  },
   "AC6857267": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
