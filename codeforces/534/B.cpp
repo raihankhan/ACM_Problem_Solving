@@ -19,13 +19,13 @@
 #define       sqr(x)               x*x
 #define       sc                   scanf
 #define       pf                   printf
-#define       pfn                  printf("\n")
+#define       pfn                  printf("\n)
 #define       scin(x)              sc("%d",&(x))
 #define       scin2(xx,zz)         scanf("%d %d",&xx,&zz)
 #define       scln(x)              sc("%lld",&(x))
 #define       scln2(xx,zz)         scanf("%lld %lld",&xx,&zz)
-#define       min3(a,b,c)          min(a,b<c?b:c)
-#define       max3(a,b,c)          max(a,b>c?b:c)
+#define       min3(a,b,c)          min(a,min(b,c))
+#define       max3(a,b,c)          max(a,max(b,c))
 #define       all(v)               v.begin(), v.end()
 #define       ok                   cout << "ok" << endl
 #define       mem(x,y)             memset(x,y,sizeof(x))
@@ -57,24 +57,18 @@
 #define       rep( i , a , b )     for( i=a ; i<b ; i++)
 #define       rev( i , a , b )     for( i=a ; i>=b ; i--)
 #define       repx( i ,a,b, x)     for( i=a ; i<b ; i+=x)
-#define       test(t)              int t; scin(t); while(t--)
-#define       doshomik(x)          fixed << setprecision(x)
-#define       IOS                  ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
-//int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
 
-///------------------------------- Mudular functions----------------------------------------
-/*
-inline lli power(lli x, lli y){ lli temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
-inline lli add(lli a, lli b) {a += b; return a >= M ? a - M : a;}
-inline lli sub(lli a, lli b) {a -= b; return a < 0 ? a + M : a;}
-inline lli mul(lli a, lli b) {return  (a * b) % M;}
-lli gcd(lli x,lli y)
+#define       IOS             ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+
+//int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
+//long power(long int x, long int y){ int temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
+/*lli gcd(lli x,lli y)
 {
     if(x==0) return y;
     return gcd(y%x,x);
 }
-lli bigmod(lli n, lli k )
+lli bigmod(lli n, lli k)
 {
     lli ans=1;
     while(k)
@@ -88,57 +82,56 @@ lli bigmod(lli n, lli k )
     return ans;
 }
 */
-///----------------------------------Graph moves----------------------------------------
 /*
-int dx4[5] = {1, -1, 0,  0};
-int dy4[5] = {0,  0, 1, -1};
-int dx8[9] = {0,  0, 1, -1, -1, 1, -1,  1};
-int dy8[9] = {-1, 1, 0,  0,  1, 1, -1, -1};
-int knightx[9] = {-2, -2, -1, -1,  1, 1, 2,  2};
-int knighty[9] = {-1,  1, -2,  2, -2, 2, -1, 1};
+int dx4[5] = {1, -1, 0, 0 };
+int dy4[5] = {0, 0, 1, -1};
+int dx8[9] = { 0 , 0 , -1 , 1 , -1 , -1 , 1 , 1 } ;
+int dy8[9] = { -1 , 1 , 0 , 0 , -1 , 1 , -1 , 1 } ;
+
+int knightx[9] = { -1 , 1 , -2 , 2 , -2 , 2 , -1 , 1 } ;
+int knighty[9] = { -2 , -2 , -1 , -1 , 1 , 1 , 2 , 2 } ;
+
 bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y <= c ) return 1 ; return 0 ; }
 */
 
 using namespace std;
-
-void err(istream_iterator<string> it) { cerr << endl; }
-template<typename T, typename... Args>
-void err(istream_iterator<string> it, T a, Args... args) { cerr  << "[ " << *it << " = " << a << " ] " ; err(++it, args...);  }
-///...............................Code Starts Here........................................
-int dp[107][1500];
 int v1,v2,t,d;
-int solve(int tm,int v)
+int arr[200][20007];
+
+int dp(int time, int dis)
 {
-    //error(v,tm);
-    if(v<=0) return -1e7;
-    if(tm==t)
-    {
-        if(v==v2) return v;
-        else return -1e7;
-    }
-    int i;
-    int &ret=dp[tm][v];
-    int res=-1e7;
-    if(ret) return ret;
-    //if(tm==1) return v+solve(tm+1,v);
+    int i,p,maxi;
+    if(dis<=0) return -1;
+
+    //cout << time << " " << dis << endl;
+
+    if(time==t and dis==v2) return v2;
+    if(time==t) return -1;
+
+    if(arr[time][dis]) return arr[time][dis];
+
+    maxi=-1;
     rep(i , -d , d+1)
     {
-        res=max(res,solve(tm+1,v+i));
+        maxi=max(maxi , dp(time+1 , dis+i ));
     }
 
-    if(res!=-1e7) res+=v;
-    return ret=res;
-}
+    if(maxi!=-1) maxi=dis+maxi;
 
+    return arr[time][dis]=maxi;
+
+}
 
 int main()
 {
-    cin >> v1 >> v2 >> t >> d;
-    if(v1>v2) swap(v1,v2);
-    cout << solve(1,v1) << endl;
+   scin2(v1,v2),scin2(t,d);
+   if(v1>v2) swap(v1,v2);
+   //mem(arr,-1);
+   cout << dp(1,v1) << endl;
 
+#ifdef HOME
+    cerr << "Time elapsed: " << clock() / 1000 << " ms" << endl;
+#endif
     return 0;
 }
-
-
 
