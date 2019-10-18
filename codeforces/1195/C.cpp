@@ -25,7 +25,7 @@
 #define       scln(x)              sc("%lld",&(x))
 #define       scln2(xx,zz)         scanf("%lld %lld",&xx,&zz)
 #define       min3(a,b,c)          min(a,min(b,c))
-#define       max3(a,b,c)          max(a,b>c?b:c)
+#define       max3(a,b,c)          max(a,max(b,c))
 #define       all(v)               v.begin(), v.end()
 #define       ok                   cout << "ok" << endl
 #define       mem(x,y)             memset(x,y,sizeof(x))
@@ -97,29 +97,23 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 using namespace std;
 
 lli dp[3][p5],a[3][p5];
-lli n,p,q,i;
-lli fun(lli state,lli ind)
-{
-    if(ind>n) return 0;
-    if(dp[state][ind]!=-1) return dp[state][ind];
-    lli p=0,q=0,r=0;
-
-    if(state!=1) p=a[1][ind]+fun(1,ind+1);
-    if(state!=2) q=a[2][ind]+fun(2,ind+1);
-    r=fun(0,ind+1);
-
-    return dp[state][ind]=max3(p,q,r);
-}
 
 int main()
 {
+   lli n,p,q,i;
+   scln(n);
+   rep(i , 1 , n+1) scln(a[1][i]);
+   rep(i , 1 , n+1) scln(a[2][i]);
+   mem(dp,0);
 
-    scln(n);
-    rep(i, 1, n+1) scln(a[1][i]);
-    rep(i, 1, n+1) scln(a[2][i]);
-    mem(dp,-1);
+   dp[1][0]=0,dp[2][0]=0;
+   rep(i , 1 , n+1)
+   {
+       dp[1][i]=max(dp[1][i-1],dp[2][i-1]+a[1][i]);
+       dp[2][i]=max(dp[2][i-1],dp[1][i-1]+a[2][i]);
+   }
 
-    cout << fun(0,1) << endl;
+   cout << max(dp[1][n],dp[2][n]) << endl;
 
 
 #ifdef HOME
@@ -127,5 +121,4 @@ int main()
 #endif
     return 0;
 }
-
 
