@@ -73,7 +73,7 @@ lli gcd(lli x,lli y)
     if(x==0) return y;
     return gcd(y%x,x);
 }
-lli bigmod(lli n, lli k )
+lli bigmod(lli n, lli k)
 {
     lli ans=1;
     while(k)
@@ -100,37 +100,30 @@ int knighty[9] = { -2 , -2 , -1 , -1 , 1 , 1 , 2 , 2 } ;
 bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y <= c ) return 1 ; return 0 ; }
 */
 
-#define mx 1002+(10<<1)+7
 using namespace std;
 lli n,m;
-lli inv[mx],fact[mx];
+lli dp[22][1002];  // states- position index (a1,a2......am,bm,b(m-1),b(m-2).....b1) , last used value // a1<=a1<=a3<=b3<=b2<=b1
 
-void factcal()
+lli solve(lli pos,lli lastused)
 {
-    fact[0]=1;
-    inv[0]=1;
-    lli i;
-    rep(i , 1 , mx-2)
+    if(dp[pos][lastused]!=-1) return dp[pos][lastused];
+    if(pos>2*m) return 1;
+
+    lli ans=0,nextuse;
+
+    rep(nextuse , lastused , n+1)
     {
-        fact[i]=mul(i,fact[i-1]);
-        inv[i]=bigmod(fact[i],M-2);
+        ans=add(ans,solve(pos+1,nextuse));
     }
-}
 
-lli nCr(lli n,lli r)
-{
-    lli num=fact[n];
-    lli denum=mul(inv[r],inv[n-r]);
-
-    return mul(num,denum);
-
+    return dp[pos][lastused]=ans;
 }
 
 int main()
 {
     scln2(n,m);
-    factcal();
-    cout << nCr( n+(m<<1)-1,m<<1) << endl;  // both array can be rearranged as a1<=a2<=a3<=b3<=b2<=b1 . in each 2*m index n possible outcome
+    mem(dp,-1);
+    cout << solve(1,1) << endl;
 
 
 #ifdef HOME
@@ -138,5 +131,4 @@ int main()
 #endif
     return 0;
 }
-
 
