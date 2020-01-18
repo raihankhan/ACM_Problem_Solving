@@ -60,15 +60,10 @@
 
 #define       IOS             ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
+
 //int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
-
-///------------------------------- Mudular functions----------------------------------------
-
-inline lli power(lli x, lli y){ lli temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
-inline lli add(lli a, lli b) {a += b; return a >= M ? a - M : a;}
-inline lli sub(lli a, lli b) {a -= b; return a < 0 ? a + M : a;}
-inline lli mul(lli a, lli b) {return  (a * b) % M;}
-lli gcd(lli x,lli y)
+//long power(long int x, long int y){ int temp; if( y == 0) return 1; temp = power(x, y/2); if (y%2 == 0) return temp*temp; else return x*temp*temp; }
+/*lli gcd(lli x,lli y)
 {
     if(x==0) return y;
     return gcd(y%x,x);
@@ -86,8 +81,7 @@ lli bigmod(lli n, lli k)
 
     return ans;
 }
-
-///----------------------------------Graph moves----------------------------------------
+*/
 /*
 int dx4[5] = {0, 0, 1, -1};
 int dy4[5] = {1, 0, 1, -1};
@@ -113,7 +107,8 @@ lli solve(lli pos,lli lastused)
 
     rep(nextuse , lastused , n+1)
     {
-        ans=add(ans,solve(pos+1,nextuse));
+        ans+=solve(pos+1,nextuse);
+        ans=ans%M;
     }
 
     return dp[pos][lastused]=ans;
