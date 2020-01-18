@@ -587,6 +587,24 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF69049941": {
+    "contest_id": 1288,
+    "language": "GNU C++14",
+    "path": "codeforces\\1288\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Deadline",
+    "problem_url": "https://codeforces.com/contest/1288/problem/A",
+    "submission_id": "CF69049941",
+    "submission_url": "https://codeforces.com/contest/1288/submission/69049941",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "ternary search",
+      "*1100"
+    ],
+    "timestamp": "Jan/18/2020 18:21"
+  },
   "CF69050681": {
     "contest_id": 1288,
     "language": "GNU C++14",
