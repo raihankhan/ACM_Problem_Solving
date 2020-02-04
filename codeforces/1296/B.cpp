@@ -109,8 +109,21 @@ int main()
     while(t--)
     {
         scln(s);
-        ans=(s-1)/9;
-        ans+=s;
+        ans=0,res=0;
+        while(s>0)
+        {
+            if(s>10)
+            p=s%10;
+            else p=0;
+            res+=p;
+            if(s%10!=0 and s>10)
+            s=s-(s%10);
+            ans+=s;
+          //  cout << ans << "---" << s << endl;
+            s/=10;
+            if(s<10) s+=res,res=0;
+        }
+
         pf("%lld\n",ans);
     }
 
@@ -122,3 +135,6 @@ int main()
 #endif
     return 0;
 }
+
+
+
