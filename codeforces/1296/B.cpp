@@ -102,16 +102,16 @@ using namespace std;
 
 int main()
 {
-    int t,ans,s;
+    lli t,i,n,res=0,ans,p,s;
 
-    scin(t);
+    scln(t);
 
     while(t--)
     {
-        scin(s);
+        scln(s);
         ans=(s-1)/9;
         ans+=s;
-        pf("%d\n",ans);
+        pf("%lld\n",ans);
     }
 
 
