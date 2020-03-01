@@ -9350,6 +9350,24 @@
     ],
     "timestamp": "Feb/05/2020 06:47"
   },
+  "CF72158097": {
+    "contest_id": 475,
+    "language": "GNU C++14",
+    "path": "codeforces\\475\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Strongly Connected City",
+    "problem_url": "https://codeforces.com/contest/475/problem/B",
+    "submission_id": "CF72158097",
+    "submission_url": "https://codeforces.com/contest/475/submission/72158097",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/01/2020 17:19"
+  },
   "CF72316565": {
     "contest_id": 1305,
     "language": "GNU C++14",
