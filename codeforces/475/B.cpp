@@ -150,15 +150,15 @@ int main()
     }
 
     mem(vis,false);
-    rep(i, 1, n+1) hor[i]= ( hor[i]=='>'?'<':'>');   // reversing edges
+    rep(i, 1, n+1) hor[i]= ( hor[i]=='>'?'<':'>');
     rep(i, 1, m+1) ver[i]= ( ver[i]=='^'?'v':'^');
 
-    while(!topsort.empty())                          // finding scc
+    while(!topsort.empty())
     {
         i=topsort.top().ff;
         j=topsort.top().ss;
         if(!vis[i][j])
-            com++,dfs(i,j,0);                        // reverse edge dfs
+            com++,dfs(i,j,0);
         topsort.pop();
     }
 
