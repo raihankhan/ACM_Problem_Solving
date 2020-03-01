@@ -134,8 +134,8 @@ void dfs(int i,int j,int mod)
 int main()
 {
     int i,j,com=0,a,b;
-    IOS;
-    cin >> n >> m ;
+
+    scin2(n,m);
 
     rep(i, 1, n+1) cin >> hor[i];
     rep(i, 1, m+1) cin >> ver[i];
@@ -160,14 +160,12 @@ int main()
         if(!vis[i][j])
             com++,dfs(i,j,0);                        // reverse edge dfs
         topsort.pop();
-
-        if(com>1) break;
     }
 
     if(com==1)
-        cout << "YES" << endl;
+        pf("YES\n");
     else
-        cout << "NO" << endl;
+        pf("NO\n");
 
 
 #ifdef HOME
