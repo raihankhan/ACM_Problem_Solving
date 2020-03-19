@@ -6,7 +6,7 @@ int n;
 int solve(int stone)
 {
     if(stone+1==n) return dp[stone]=abs(h[stone]-h[stone+1]);
-    if(stone+2==n) return dp[stone]=abs(h[stone]-h[stone+2]);
+    if(stone+2==n) return dp[stone+2]=abs(h[stone]-h[stone+2]);
     if(dp[stone]!=-1) return dp[stone];
     return dp[stone]=min(abs(h[stone]-h[stone+1])+solve(stone+1),abs(h[stone]-h[stone+2])+solve(stone+2));
 }
