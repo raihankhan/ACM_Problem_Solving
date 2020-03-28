@@ -108,7 +108,7 @@ int main()
     {
 
         scln2(n,k);
-        if((n&1)==(k&1))
+        if(n%2==k%2)
         {
             if(k*k<=n)
                 cout << "YES" << endl;
