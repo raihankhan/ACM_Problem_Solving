@@ -111,13 +111,12 @@ int main()
         if((n&1)==(k&1))
         {
             if(k*k<=n)
-                pf("YES");
+                cout << "YES" << endl;
             else
-                pf("NO");
+                cout << "NO" << endl;
         }
         else
-            pf("NO");
-        pfn;
+            cout << "NO" << endl;
     }
 
 #ifdef HOME
