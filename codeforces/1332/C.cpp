@@ -122,13 +122,12 @@ void dfs(int i)
 
 int main()
 {
-    IOS;
     int i,j,t;
-    cin >> t;
+    scin(t);
 
     while(t--)
     {
-        cin >> n >> k ;
+        scin2(n,k);
         cin >> s ;
 
         rep(i, 0, n) vis[i]=0;
@@ -151,7 +150,7 @@ int main()
 
         }
 
-        cout << ans << endl;
+        pf("%d\n",ans);
 
 
     }
