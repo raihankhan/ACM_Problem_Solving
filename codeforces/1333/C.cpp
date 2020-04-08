@@ -103,23 +103,27 @@ map< lli,lli >prv;
 
 int main()
 {
-    lli n,i,ans,lf,maxi,sum,p;
+    lli n,i,j,p,pos,ans,rt,lf,both,maxi;
 
     scln(n);
 
-    sum=0;
+    lli arr[n+7];
+    lli sum[n+7];
+    sum[0]=0;
+
+
     prv[0]=0;
     ans=0;
     maxi=0;
 
     rep(i , 1 ,n+1)
     {
-        scln(p);
-        sum+=p;
+        scln(arr[i]);
+        sum[i]=sum[i-1]+arr[i];
 
-        if(prv[sum]!=0 or (prv[sum]==0 and sum==0))
+        if(prv.find(sum[i])!=prv.end())
         {
-            lf=prv[sum]+1;
+            lf=prv[sum[i]]+1;
             maxi=max(maxi,lf);
             ans+=(i-maxi);
 
@@ -129,7 +133,7 @@ int main()
             ans+=(i-maxi);
         }
 
-        prv[sum]=i;
+        prv[sum[i]]=i;
     }
 
     cout << ans << endl;
