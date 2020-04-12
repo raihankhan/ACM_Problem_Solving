@@ -1,4 +1,20 @@
 {
+  "AC11869969": {
+    "contest_id": "abc162",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc162\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "RGB Triplets",
+    "problem_url": "https://atcoder.jp/contests/abc162/tasks/abc162_d",
+    "submission_id": "AC11869969",
+    "submission_url": "https://atcoder.jp/contests/abc162/submissions/11869969",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/13/2020 03:29"
+  },
   "AC12499485": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
