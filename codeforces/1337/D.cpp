@@ -161,8 +161,8 @@ int main()
 
 
 
-
+#ifdef HOME
     cerr << "Time elapsed: " << clock() / 1000 << " ms" << endl;
-
+#endif
     return 0;
 }
