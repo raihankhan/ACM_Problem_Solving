@@ -16,7 +16,7 @@
 #define       gray                 1
 #define       black                2
 /*....................................Functions.............................................*/
-#define       sqr(x)               1LL*(x)*(x)
+//#define       sqr(x)               ((x)*(x))
 #define       sc                   scanf
 #define       pf                   printf
 #define       pfn                  printf("\n")
@@ -99,12 +99,17 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 */
 
 using namespace std;
+lli sqr(int a,int b)
+{
+    lli ans = 1LL*(a-b)*(a-b);
+    return ans;
+}
 
-inline lli rets(int x,int y,int z)
+lli rets(int x,int y,int z)
 {
     //cout << x << " " << y << " " << z << endl;
     //cout << sqr(x,y) << " " << sqr(y,z) << " " << sqr(z,x) << "----" << endl;
-    return sqr(x-y) + sqr(y-z) + sqr(z-x) ;
+    return sqr(x,y) + sqr(y,z) + sqr(z,x) ;
 }
 
 lli func( veci r, veci g, veci b)
@@ -126,7 +131,9 @@ lli func( veci r, veci g, veci b)
         if(z and y!=g.size())
             ans= min(ans , rets(x,g[y],b[z-1]));
         if(y and z)
+        {
             ans= min(ans , rets(x,g[y-1],b[z-1]));
+        }
     }
 
     return ans;
