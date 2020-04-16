@@ -100,7 +100,7 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 
 using namespace std;
 
-lli rets(int x,int y,int z)
+inline lli rets(int x,int y,int z)
 {
     //cout << x << " " << y << " " << z << endl;
     //cout << sqr(x,y) << " " << sqr(y,z) << " " << sqr(z,x) << "----" << endl;
