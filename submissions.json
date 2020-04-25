@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF78021378": {
+    "contest_id": 799,
+    "language": "GNU C++14",
+    "path": "codeforces\\799\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Carrot Cakes",
+    "problem_url": "https://codeforces.com/contest/799/problem/A",
+    "submission_id": "CF78021378",
+    "submission_url": "https://codeforces.com/contest/799/submission/78021378",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/25/2020 17:59"
+  },
   "CF78133817": {
     "contest_id": 1342,
     "language": "GNU C++14",
