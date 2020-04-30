@@ -115,7 +115,7 @@ lli solve(lli i,lli j)
 int main()
 {
     lli i,j,ans;
-    IOS;
+
     cin >> h >> w ;
 
     rep(i , 1 , h+1)
