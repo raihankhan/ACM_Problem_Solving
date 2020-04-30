@@ -134,18 +134,15 @@ int main()
     while(m--)
         scin2(u,v),g[u].pb(v);
 
-    int maxi=0;
     rep(u , 1 , n+1)
     {
         if(!vis[u])
            p= dfs(u);
-        maxi=max(maxi,p);
     }
 
-
-    /*rep(i , 1 , n+1)
+    int maxi=0;
+    rep(i , 1 , n+1)
     maxi=max(maxi,cnt[i]);
-    */
 
     pf("%d\n",maxi);
 
