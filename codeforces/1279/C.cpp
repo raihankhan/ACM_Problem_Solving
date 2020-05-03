@@ -112,13 +112,13 @@ int main()
         scin2(n,m);
         rep(i , 1 , n+1) scin(p),pos[p]=i;
 
-        int maxipos=-1;
+        int maxipos=-1,taken=0;
         lli ans=0;
-        rep(i , 0 , m)
+        rep(i , 1 , m+1)
         {
             scin(p);
-            if( pos[p]>maxipos ) ans += (((pos[p]-i-1)<<1LL)|1LL) , maxipos=pos[p];
-            else ans++;
+            if( pos[p]>maxipos ) ans += (((pos[p]-taken-1)<<1LL)+1LL) , maxipos=pos[p] , taken++;
+            else ans++,taken++;
 
             //cout << " -- " << ans << endl;
         }
