@@ -1,4 +1,20 @@
 {
+  "AC12836773": {
+    "contest_id": "dp",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\dp\\K.cpp",
+    "platform": "AtCoder",
+    "problem_index": "K",
+    "problem_name": "Stones",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_k",
+    "submission_id": "AC12836773",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/12836773",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/05/2020 04:29"
+  },
   "AC12950017": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
