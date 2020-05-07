@@ -103,8 +103,8 @@ using namespace std;
 int main()
 {
     lli t,a1,b1,a2,b2;
-    IOS;
-    cin >> t ;
+
+    scln(t);
 
     while(t--)
     {
