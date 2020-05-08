@@ -103,7 +103,7 @@ using namespace std;
 int main()
 {
     int t,n,k,m,s,p,d,i;
-    unordered_set<int>st;
+    set<int>st;
     scin(t);
 
     while(t--)
