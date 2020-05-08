@@ -1,4 +1,20 @@
 {
+  "AC12950017": {
+    "contest_id": "dp",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\dp\\P.cpp",
+    "platform": "AtCoder",
+    "problem_index": "P",
+    "problem_name": "Independent Set",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_p",
+    "submission_id": "AC12950017",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/12950017",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/08/2020 14:41"
+  },
   "AC14435245": {
     "contest_id": "abc170",
     "language": "C++ (GCC 9.2.1)",
