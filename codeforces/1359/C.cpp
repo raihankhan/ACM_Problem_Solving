@@ -60,7 +60,7 @@
 #define       test(t)              int t; scin(t); while(t--)
 #define       doshomik(x)          fixed << setprecision(x)
 #define       IOS                  ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
+
 //int month[]={31,28,31,30,31,30,31,31,30,31,30,31};
 
 ///------------------------------- Mudular functions----------------------------------------
@@ -101,13 +101,6 @@ bool valid( int r , int c , int x , int y ){ if( x >= 1 && x <= r && y >= 1 && y
 
 using namespace std;
 
-void err(istream_iterator<string> it) {cerr<<endl;}
-template<typename T, typename... Args>
-void err(istream_iterator<string> it, T a, Args... args) {
-	cerr  << *it << " = " << a << " | " ;
-	err(++it, args...);
-}
-
 lli bs(lli h,lli c,lli t)
 {
     lli l=1,r=1e6,mid,cup1,cup2,eps=100;
@@ -136,7 +129,6 @@ lli bs(lli h,lli c,lli t)
     temp1=abs( (l*h + (l-1LL)*c)/(1.0*cup1) - temp );
     temp2=abs( (r*h + (r-1LL)*c)/(1.0*cup2) - temp );
     //cout << l << " " << r << endl;
-    error(l,r);
     if(temp1<temp2)
         return cup1;
     else
