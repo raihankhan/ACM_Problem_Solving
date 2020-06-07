@@ -117,13 +117,16 @@ int main()
 
     sort(all(dif));
 
-    lli ans=0,maxi;
-    auto r=dif.end();
+    lli ans=0,maxi,l,r;
     rep(i ,  0 , n-1)
     {
         maxi=1-dif[i];
+        auto r=dif.end();
         auto l=lower_bound(dif.begin()+i+1 , dif.end() , maxi );
-        ans+=(r-l);
+        if(r==dif.end() and dif[n-1]<maxi) ans+=0;
+        else ans+=(r-l);
+
+        //error(i,r-l+1);
     }
 
     pf("%lld\n",ans);
