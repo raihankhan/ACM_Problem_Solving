@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF87385258": {
+    "contest_id": 465,
+    "language": "GNU C++17",
+    "path": "codeforces\\465\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "No to Palindromes!",
+    "problem_url": "https://codeforces.com/contest/465/problem/C",
+    "submission_id": "CF87385258",
+    "submission_url": "https://codeforces.com/contest/465/submission/87385258",
+    "tags": [
+      "brute force",
+      "*1700"
+    ],
+    "timestamp": "Jul/20/2020 02:59"
+  },
   "CF87386061": {
     "contest_id": 727,
     "language": "GNU C++14",
