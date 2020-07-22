@@ -115,26 +115,27 @@ void err(istream_iterator<string> it, T a, Args... args)
 
 int main()
 {
-    lli l,r,k,now=1;
+    lli l,r,k,p=0,now=1LL;
 
     cin >> l >> r >> k ;
-    bool found=0;
+
     while(now<=r)
     {
-        if(now>=l and now<=r)
+        if(now>=l and now<=r )
         {
             cout << now << " ";
-            found=1;
+            p=1;
         }
-        if(now<=(r/k)+1)
-            now=now*k;
-        else
-            break;
+        if(now>(r/k)+1) break;
+        now*=k;
+        if(k==1) break;
     }
 
-    if(!found)
-        cout << -1 << endl;
-
+    if(p==0)
+    {
+        p=-1;
+        cout << p << endl;
+    }
 
     return 0;
 }
