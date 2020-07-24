@@ -128,7 +128,6 @@ x*ay + ax*by + bx*y - ax*y - bx*ay - x*by
 */
 int main()
 {
-    IOS;
     int n,i;
     double px,py,maxi=DBL_MIN,mini=DBL_MAX;
     cin >> n >> px >> py;

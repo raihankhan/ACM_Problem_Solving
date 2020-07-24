@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF87839618": {
+    "contest_id": 614,
+    "language": "GNU C++17",
+    "path": "codeforces\\614\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Peter and Snow Blower",
+    "problem_url": "https://codeforces.com/contest/614/problem/C",
+    "submission_id": "CF87839618",
+    "submission_url": "https://codeforces.com/contest/614/submission/87839618",
+    "tags": [
+      "geometry",
+      "*1900"
+    ],
+    "timestamp": "Jul/24/2020 13:54"
+  },
   "CF87839671": {
     "contest_id": 614,
     "language": "GNU C++17",
