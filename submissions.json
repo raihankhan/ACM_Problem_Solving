@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF88579246": {
+    "contest_id": 520,
+    "language": "GNU C++17",
+    "path": "codeforces\\520\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "DNA Alignment",
+    "problem_url": "https://codeforces.com/contest/520/problem/C",
+    "submission_id": "CF88579246",
+    "submission_url": "https://codeforces.com/contest/520/submission/88579246",
+    "tags": [
+      "math",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Jul/31/2020 15:49"
+  },
   "CF88583044": {
     "contest_id": 204,
     "language": "GNU C++17",
