@@ -12,7 +12,7 @@ public:
         l=a,r=b,id=i;
     }
 };
-const int block=sqrt(500007)+1;
+int block=0;
 int unik;
 bool cmp(const Query a,const Query b)
 {
@@ -43,7 +43,7 @@ int main()
         all.push_back(Query(l,r,i));
     }
 
-   // block=sqrt(n)+1;
+    block=sqrt(n)+1;
     sort(all.begin(),all.end(),cmp);
 
     int cur_l=1,cur_r=0;
