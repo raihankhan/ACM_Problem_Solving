@@ -108,17 +108,17 @@ void err(istream_iterator<string> it, T a, Args... args) { cerr  << "[ " << *it 
 class Query
 {
 public:
-    int l,r,id,blk;
-    inline Query(int a,int b,int c,int d) { l=a,r=b,id=c,blk=d; }
+    int l,r,id;
+    inline Query(int a,int b,int c) { l=a,r=b,id=c; }
 };
-const int blk_sz=sqrt(200000)+1;
+const int blk=sqrt(200000)+1;
 bool cmp(const Query a,const Query b)
 {
-    if(a.blk!=b.blk)
+    if(a.l/blk!=b.l/blk)
     {
-        return a.blk<b.blk;
+        return a.l/blk<b.l/blk;
     }
-    return (a.blk)&1?a.r<b.r:a.r>b.r;
+    return (a.l/blk)&1?a.r<b.r:a.r>b.r;
 }
 
 int arr[2*p5];
@@ -126,8 +126,8 @@ vector<Query>q;
 int freq[p6];
 lli ans[2*p5],sum;
 
-inline void add(int d){ sum+=1LL*(freq[d]+freq[d]+1)*d, freq[d]++; }
-inline void del(int d){ sum-=1LL*(freq[d]+freq[d]-1)*d, freq[d]--; }
+inline void add(int d){ sum-=(1LL*freq[d]*freq[d]*d), freq[d]++ , sum+=(1LL*freq[d]*freq[d]*d); }
+inline void del(int d){ sum-=(1LL*freq[d]*freq[d]*d), freq[d]-- , sum+=(1LL*freq[d]*freq[d]*d); }
 
 int main()
 {
@@ -140,7 +140,7 @@ int main()
     rep(i , 1 , t+1)
     {
         cin >> l >> r ;
-        q.pb(Query(l,r,i,l/blk_sz));
+        q.pb(Query(l,r,i));
     }
 
     sort(all(q),cmp);
@@ -150,10 +150,10 @@ int main()
         l=q[i].l;
         r=q[i].r;
 
-        while(cur_l>l)  add(arr[--cur_l]);
-        while(cur_l<l)  del(arr[cur_l++]);
-        while(cur_r>r)  del(arr[cur_r--]);
-        while(cur_r<r)  add(arr[++cur_r]);
+        while(cur_l>l) { cur_l--, add(arr[cur_l]); }
+        while(cur_l<l) { cur_l++, del(arr[cur_l-1]); }
+        while(cur_r>r) { cur_r--, del(arr[cur_r+1]); }
+        while(cur_r<r) { cur_r++, add(arr[cur_r]); }
 
         ans[q[i].id]=sum;
     }
