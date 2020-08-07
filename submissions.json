@@ -587,6 +587,23 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF89162803": {
+    "contest_id": 449,
+    "language": "GNU C++17",
+    "path": "codeforces\\449\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Jzzhu and Cities",
+    "problem_url": "https://codeforces.com/contest/449/problem/B",
+    "submission_id": "CF89162803",
+    "submission_url": "https://codeforces.com/contest/449/submission/89162803",
+    "tags": [
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*2000"
+    ],
+    "timestamp": "Aug/07/2020 06:08"
+  },
   "CF89681903": {
     "contest_id": 1395,
     "language": "GNU C++17",
