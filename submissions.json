@@ -587,6 +587,24 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF89795338": {
+    "contest_id": 1395,
+    "language": "GNU C++17",
+    "path": "codeforces\\1395\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Boboniu and Bit Operations",
+    "problem_url": "https://codeforces.com/contest/1395/problem/C",
+    "submission_id": "CF89795338",
+    "submission_url": "https://codeforces.com/contest/1395/submission/89795338",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Aug/13/2020 18:54"
+  },
   "CF89881880": {
     "contest_id": 1398,
     "language": "GNU C++17",
