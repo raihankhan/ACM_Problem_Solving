@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF93192311": {
+    "contest_id": 1418,
+    "language": "GNU C++17",
+    "path": "codeforces\\1418\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Buying Torches",
+    "problem_url": "https://codeforces.com/contest/1418/problem/A",
+    "submission_id": "CF93192311",
+    "submission_url": "https://codeforces.com/contest/1418/submission/93192311",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Sep/19/2020 18:45"
+  },
   "CF94010600": {
     "contest_id": 1420,
     "language": "GNU C++17",
