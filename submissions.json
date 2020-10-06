@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF94851514": {
+    "contest_id": 108,
+    "language": "GNU C++14",
+    "path": "codeforces\\108\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Datatypes",
+    "problem_url": "https://codeforces.com/contest/108/problem/B",
+    "submission_id": "CF94851514",
+    "submission_url": "https://codeforces.com/contest/108/submission/94851514",
+    "tags": [
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Oct/06/2020 19:08"
+  },
   "CF94923268": {
     "contest_id": 1366,
     "language": "GNU C++14",
