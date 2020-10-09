@@ -106,17 +106,19 @@ template<typename T, typename... Args>
 void err(istream_iterator<string> it, T a, Args... args) { cerr  << "[ " << *it << " = " << a << " ] " ; err(++it, args...);  }
 ///...............................Code Starts Here........................................
 const int maxp=1e7+2;
+veci prime;
 bool vis[maxp+7];
 int spf[maxp+7];
-
 void precal()
 {
     int i,j,p,root=sqrt(maxp)+1;
+    prime.pb(2);
     vis[0]=1,vis[1]=1;
     for(i=3;i<=root;i+=2)
     {
         if(!vis[i])
         {
+            prime.pb(i);
             p=i<<1;
             for(j=i*i;j<=maxp;j+=p)
             {
@@ -125,6 +127,10 @@ void precal()
             }
         }
     }
+
+    for( i=root&1?root+2:root+1 ; i<=maxp ; i+=2 )
+        if(!vis[i])
+        prime.pb(i);
 }
 
 void test(int T)
