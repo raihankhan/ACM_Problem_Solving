@@ -587,6 +587,22 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF96374659": {
+    "contest_id": 1400,
+    "language": "GNU C++14",
+    "path": "codeforces\\1400\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "String Similarity",
+    "problem_url": "https://codeforces.com/contest/1400/problem/A",
+    "submission_id": "CF96374659",
+    "submission_url": "https://codeforces.com/contest/1400/submission/96374659",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/22/2020 20:49"
+  },
   "CF96378935": {
     "contest_id": 1400,
     "language": "GNU C++14",
