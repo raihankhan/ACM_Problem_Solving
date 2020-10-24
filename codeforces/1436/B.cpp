@@ -124,9 +124,9 @@ void test(int T)
     {
         rep(j , 0 , n)
         {
-            pf("%d%c",arr[i][j]," \n"[j==n-1]);
-            //if(j!=n-1) pf(" ");
-            //else pfn;
+            pf("%d",arr[i][j]);
+            if(j!=n-1) pf(" ");
+            else pfn;
         }
     }
 }
