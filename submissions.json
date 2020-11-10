@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF98053158": {
+    "contest_id": 868,
+    "language": "GNU C++14",
+    "path": "codeforces\\868\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Race Against Time",
+    "problem_url": "https://codeforces.com/contest/868/problem/B",
+    "submission_id": "CF98053158",
+    "submission_url": "https://codeforces.com/contest/868/submission/98053158",
+    "tags": [
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Nov/10/2020 17:16"
+  },
   "CF98068841": {
     "contest_id": 24,
     "language": "GNU C++14",
