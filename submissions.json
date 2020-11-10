@@ -587,6 +587,21 @@
     ],
     "timestamp": "Dec/21/2020 20:28"
   },
+  "CF98068841": {
+    "contest_id": 24,
+    "language": "GNU C++14",
+    "path": "codeforces\\24\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Ring road",
+    "problem_url": "https://codeforces.com/contest/24/problem/A",
+    "submission_id": "CF98068841",
+    "submission_url": "https://codeforces.com/contest/24/submission/98068841",
+    "tags": [
+      "graphs",
+      "*1400"
+    ],
+    "timestamp": "Nov/10/2020 21:02"
+  },
   "CF98118301": {
     "contest_id": 271,
     "language": "GNU C++14",
