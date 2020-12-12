@@ -114,9 +114,8 @@ void solve(int l,int r)
     s.insert(sum);
     lli mid=(v[l]+v[r])>>1;
     int m;
-    m=upper_bound(v.begin()+1,v.begin()+r+1,mid)-v.begin();
-    //for(m=l;m<=r;m++)
-      //  if(v[m]>mid) break;
+    for(m=l;m<=r;m++)
+        if(v[m]>mid) break;
    // error(l,v[l],r,v[r],mid,m,v[m]);
     if(m<=r)
     {
