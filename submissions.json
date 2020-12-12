@@ -1,4 +1,20 @@
 {
+  "CF101054259": {
+    "contest_id": 203,
+    "language": "GNU C++14",
+    "path": "codeforces\\203\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Photographer",
+    "problem_url": "https://codeforces.com/contest/203/problem/C",
+    "submission_id": "CF101054259",
+    "submission_url": "https://codeforces.com/contest/203/submission/101054259",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Dec/13/2020 00:50"
+  },
   "CF101080364": {
     "contest_id": 313,
     "language": "GNU C++14",
