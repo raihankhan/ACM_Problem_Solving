@@ -1,4 +1,20 @@
 {
+  "CF101088723": {
+    "contest_id": 205,
+    "language": "GNU C++14",
+    "path": "codeforces\\205\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Elephant and Sorting",
+    "problem_url": "https://codeforces.com/contest/205/problem/B",
+    "submission_id": "CF101088723",
+    "submission_url": "https://codeforces.com/contest/205/submission/101088723",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Dec/13/2020 16:12"
+  },
   "CF101185255": {
     "contest_id": 1269,
     "language": "GNU C++14",
