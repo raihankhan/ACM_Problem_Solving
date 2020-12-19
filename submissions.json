@@ -1,4 +1,19 @@
 {
+  "CF101716260": {
+    "contest_id": 265,
+    "language": "GNU C++17",
+    "path": "codeforces\\265\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Colorful Stones (Simplified Edition)",
+    "problem_url": "https://codeforces.com/contest/265/problem/A",
+    "submission_id": "CF101716260",
+    "submission_url": "https://codeforces.com/contest/265/submission/101716260",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/19/2020 15:07"
+  },
   "CF101861838": {
     "contest_id": 1465,
     "language": "GNU C++17",
