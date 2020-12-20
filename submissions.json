@@ -1,4 +1,18 @@
 {
+  "CF101861838": {
+    "contest_id": 1465,
+    "language": "GNU C++17",
+    "path": "codeforces\\1465\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "In-game Chat",
+    "problem_url": "https://codeforces.com/contest/1465/problem/A",
+    "submission_id": "CF101861838",
+    "submission_url": "https://codeforces.com/contest/1465/submission/101861838",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Dec/20/2020 21:08"
+  },
   "CF101908185": {
     "contest_id": 1465,
     "language": "GNU C++17",
