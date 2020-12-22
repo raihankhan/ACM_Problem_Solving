@@ -6,9 +6,15 @@ Submissions
 
 A repository to keep track of problem solving practise, containing solutions from platforms:
 * Codeforces
+* LightOJ
+* HackerRank
 > Codeforces is a website which hosts competitive programming contests: [http://codeforces.com](http://codeforces.com)
 
-## Contents
+> LightOJ is a website contains lots of Algorithmic and Data Structure problems: [http://lightoj.com](http://lightoj.com)
+
+> HackerRank is a website contains lots of Algorithmic, Data Structure, Skill practicing  problems: [https://www.hackerrank.com](https://www.hackerrank.com)
+
+## Solved Codeforces Problems
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
