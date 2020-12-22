@@ -14,7 +14,7 @@ A repository to keep track of problem solving practise, containing solutions fro
 
 > HackerRank is a website contains lots of Algorithmic, Data Structure, Skill practicing  problems: [https://www.hackerrank.com](https://www.hackerrank.com)
 
-## Contents
+## Solved Codeforces Problems
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
