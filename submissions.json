@@ -604,6 +604,23 @@
     ],
     "timestamp": "Dec/23/2020 00:09"
   },
+  "CF102972109": {
+    "contest_id": 1466,
+    "language": "GNU C++17",
+    "path": "codeforces\\1466\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bovine Dilemma",
+    "problem_url": "https://codeforces.com/contest/1466/problem/A",
+    "submission_id": "CF102972109",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102972109",
+    "tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/01/2021 22:01"
+  },
   "CF102991486": {
     "contest_id": 1466,
     "language": "GNU C++17",
