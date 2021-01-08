@@ -6,18 +6,13 @@ Submissions
 
 A repository to keep track of problem solving practise, containing solutions from platforms:
 * Codeforces
-* LightOJ
-* HackerRank
 > Codeforces is a website which hosts competitive programming contests: [http://codeforces.com](http://codeforces.com)
 
-> LightOJ is a website contains lots of Algorithmic and Data Structure problems: [http://lightoj.com](http://lightoj.com)
-
-> HackerRank is a website contains lots of Algorithmic, Data Structure, Skill practicing  problems: [https://www.hackerrank.com](https://www.hackerrank.com)
-
-## Solved Codeforces Problems
+## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+936 | [A - Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | [GNU C++17](./codeforces/1467/A.cpp) | `constructive algorithms` `greedy` `math` `*900` | Jan/08/2021 23:28 | 
 935 | [C - Peaceful Rooks](https://codeforces.com/contest/1465/problem/C) | [GNU C++17](./codeforces/1465/C.cpp) | `dfs and similar` `dsu` `greedy` `implementation` | Dec/23/2020 00:09 | 
 934 | [C - Row GCD](https://codeforces.com/contest/1459/problem/C) | [GNU C++17](./codeforces/1459/C.cpp) | `math` `number theory` `*1600` | Dec/21/2020 20:28 | 
 933 | [B - Fair Numbers](https://codeforces.com/contest/1465/problem/B) | [GNU C++17](./codeforces/1465/B.cpp) | `brute force` `number theory` | Dec/21/2020 00:08 | 
