@@ -15,3 +15,4 @@ include:
 
 theme: bulma-clean-theme
 markdown: GFM
+style: is-light
