@@ -13,7 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
+
 |---| ----- | -------- | ---- | --------- |
+
 981 | [C - Boredom](https://codeforces.com/contest/456/problem/C) | [GNU C++17](./codeforces/456/C.cpp) | `dp` `*1500` | Jan/09/2021 18:03 | 
 980 | [C - Team](https://codeforces.com/contest/401/problem/C) | [GNU C++17](./codeforces/401/C.cpp) | `constructive algorithms` `greedy` `implementation` `*1400` | Jan/09/2021 17:49 | 
 979 | [A - Wizard of Orz](https://codeforces.com/contest/1467/problem/A) | [GNU C++17](./codeforces/1467/A.cpp) | `constructive algorithms` `greedy` `math` `*900` | Jan/08/2021 23:28 | 
