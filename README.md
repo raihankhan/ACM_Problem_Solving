@@ -5,7 +5,7 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/Escanor.svg)](https://codeforces.com/profile/Escanor)
+* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/Escanor)](https://codeforces.com/profile/Escanor)
 * AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/Escanor_.svg)](https://atcoder.jp/users/Escanor_)
 
 
