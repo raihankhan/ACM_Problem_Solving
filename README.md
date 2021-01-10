@@ -6,7 +6,7 @@ Submissions
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/Escanor)](https://codeforces.com/profile/Escanor)
-* CodeChef &nbsp; [![CodeChef](https://cp-logo.vercel.app/codechef/raihan_khan)](https://codeforces.com/profile/Escanor)
+* CodeChef &nbsp; [![CodeChef](https://cp-logo.vercel.app/codechef/raihan_khan)](https://www.codechef.com/users/raihan_khan)
 * AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/Escanor_.svg)](https://atcoder.jp/users/Escanor_)
 
 
